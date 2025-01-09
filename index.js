@@ -1,23 +1,45 @@
-let numbers = [1,2,3,4,5,6,7,8,9,10];
+let name ='miracle'
 
-console.log(numbers[3]);
+let score = 200
+let bonus = 30
 
-let students =['blessing', 'comfort' ,'happiness' ]
+let totalscore = score + bonus
+console.log(totalscore)
 
-let welcome = ['welcome!','everybody']
+console .log(name)
 
-console.log(welcome.join(' '))
+//let firstName = 'miracle'
+//let lastName = 'sunday'
 
-let flowers = ['rose','hibiscus','sunflowers']
-console.log(flowers[0])
+//console.log(firstName + lastName)
 
-let names =['rose','blessing','miracle']
-console.log(names[2])
+let firstName = 'uwana'
+let lastName = 'okon'
+firstName = 'miracle'
 
-let girls = ['miracle','uwana','happiness','faith']
-girls.push('favor');
+console.log(firstName + '_' + lastName)
 
-girls. unshift (' mimi ');
+let state = 'akwa ibom'
+let capital = 'uyo'
+
+console.log(state + '**' + capital)
+
+let gender = 'male'
+let person = 'female'
+console.log(gender + '_' + person)
+
+let pass = 400
+let fail = 100
+
+console.log(pass + fail)
+
+const country = 'lagos'
+console.log(country)
+
+const age = 20
+const group = 3
+console.log(age + group)
+
 
 
 
