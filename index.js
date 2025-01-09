@@ -17,7 +17,7 @@ console.log(names[2])
 let girls = ['miracle','uwana','happiness','faith']
 girls.push('favor');
 
-girls. unshift ('mimi');
+girls. unshift (' mimi ');
 
 
 
