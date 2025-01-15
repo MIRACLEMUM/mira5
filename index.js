@@ -40,6 +40,51 @@ const age = 20
 const group = 3
 console.log(age + group)
 
+function meeting(){
+    console.log('hello, world welcome to Netisens')
+}
+
+meeting();
+
+function greeting(name) {
+
+}
+
+//const sum = add(a, b) => a + b;
+
+//console.log(sum(5,10));
+
+for (let i = 1; i <= 20; i++) {
+    console.log(i);
+}
+
+function checkEvenOrOdd(number) {
+    if (number % 2 === 0) {
+        return "Even";
+    } else {
+        return "Odd";
+    }
+}
+
+
+console.log(checkEvenOrOdd(11)); 
+console.log(checkEvenOrOdd(8));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9
+
 
 
 
