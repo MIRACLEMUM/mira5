@@ -107,6 +107,61 @@ let array = ['My','lord','help','me']
 console.log(array.join(' '))
 console.log(array.join('-'))
 
+function add(a,b,c) {
+    return (a + b + c);
+}
+
+
+console.log(15 + 5);
+
+
+function multiply(a,b,) {
+    return (a * b)
+}   
+    console.log(20 * 5);
+
+
+
+function subtract(f,g,h) {
+    return (f -g-h)
+}
+console.log(2 - 5 - 7);
+
+//function add()
+
+let fruits = ['banana','apple','pawpaw','orange','kiwi','peach']
+fruits.splice(2,3, 'pineapple','purple','guave')
+console.log(fruits);
+
+//fruits [2] = 'pineapple';
+//fruits [3] = 'yam';
+//fruits [4] = 'cook';
+//console.log(fruits);
+
+let men = ['blessed','adams','timothy',]
+men.splice(1,3, 'aboy','amos','life')
+console.log(men);
+
+let nan = ['genesis','exodus','james','luke','ruby','goody','jonny']
+nan.splice(3,3, 'nose','house','hen')
+console.log(nan)
+
+let words = ['i','hate','you','sha']
+console.log(words.join('***'))
+
+let ice = ['we','cream','you']
+console.log(ice.join('*'))
+
+
+
+
+
+
+
+
+
+
+
 
 
 
