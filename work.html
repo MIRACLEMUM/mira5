@@ -8,10 +8,13 @@
 <body>
     <button onclick="console.log(`cart quantity:${cartQuantity}`);">show quantity
     </button>
+
     <button onclink="
-    cartQuantity  =+ 1;
+    cartQuantity  = + 1;
     console.log(`cart quantity: ${cartQuantity}`);">add chat</button>
-    <button>+4</button>
+    <button onclick="
+        console.log(`cart quantity: ${cartQuantity}`);
+    ">+4</button>
     <button>+8</button>
     <button>Reset Cart</button>
     <script>
