@@ -3,22 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>variables</title>
 </head>
 <body>
-    <button onclick="console.log(`cart quantity:${cartQuantity}`);">show quantity
-    </button>
-
-    <button onclink="
-    cartQuantity  = + 1;
-    console.log(`cart quantity: ${cartQuantity}`);">add chat</button>
     <button onclick="
-        console.log(`cart quantity: ${cartQuantity}`);
+    console.log(`cart quantity: ${cartQuantity}`);
+
+        ">Show Quantity</button>
+
+    <button onclick="
+    cartQuantity = cartQuantity + 1;
+    console.log(`cart quantity: ${cartQuantity}`);
+
+    ">Add Chart</button>
+
+    <button onclick="
+    cartQuantity = cartQuantity + 2;
+    console.log(`cart quantity: ${cartQuantity}`);
+
+    ">+2</button>
+
+
+    <button onclick="
+   // cartQuantity = cartQuantity + 2;
+   cartQuantity += 2;
+    console.log(`cart quantity: ${cartQuantity}`);
+
     ">+4</button>
-    <button>+8</button>
-    <button>Reset Cart</button>
+
+   <button onclick="
+   cartQuantity = 0;
+   console.log('cart was changed.');
+   console.log(`cart quantity: ${cartQuantity}`);
+
+
+   ">Reset Cart</button>
+<!--
     <script>
-        let cartQuantity = 5;
+        let variable1 = 4;
+        console.log(variable1);
+
+        let cal = 4 + 5;
+        console.log(cal);
+
+        console.log(cal + 2 );
+
+        let result = cal + 6;
+        console.log(result)
+
+        let message = 'come'+'home'+'now';
+        console.log(message)
+
+        variable1 = 8;
+        console.log(variable1)
+
+        variable1 = variable1 + 2
+        console.log(variable1)
+
+        
     </script>
+-->
+    <script>
+        let cartQuantity = 0;
+    </script>
+    
 </body>
 </html>
