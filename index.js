@@ -1,4 +1,4 @@
-let name ='miracle'
+/*let name ='miracle'
 
 let score = 200
 let bonus = 30
@@ -149,8 +149,71 @@ console.log(nan)
 let words = ['i','hate','you','sha']
 console.log(words.join('***'))
 
-let ice = ['we','cream','you']
-console.log(ice.join('*'))
+//let ice = ['we','cream','you']
+//console.log(ice.join('*'))
+*/
+
+/*
+
+let noun = {
+    firstName: "miracle",
+    lastName: "sunday",
+    age: 30,
+    greet: function () {
+      return `Hello, my name is ${this.firstName} ${this.lastName}`;
+   },
+  }; 
+ console.log(noun.firstName,noun.lastName); 
+ console.log(noun.greet());
+
+ //console.log(Object.keys(noun))
+ //console.log(Object.entries(noun))
+
+let perfumes = {
+    formen: 'avanti',
+    forwomen: 'my love',
+    color: 'blue'
+    
+}
+
+console.log(Object.keys(noun))
+console.log(Object.keys(perfumes))
+console.log(Object.entries(noun))
+console.log(Object.entries(perfumes))
+
+
+
+
+  
+  
+  //let miracle = {
+    //firstName: 'bright',
+    //lastName: 'sunday',
+    //age: 25,
+   // favfood: 'rice'
+    //greet: function () {
+        return `Hello, my name is ${this.firstName} ${this.lastName}`;
+    //  },
+    //};
+    
+    console.log(miracle.firstName); 
+    console.log(miracle.age)
+    console.log(miracle.greet());  
+    
+
+  //for (let key in miracle) {
+  // console.log(`${key}: $ `)
+  //}
+  
+  //console.log(miracle.firstName,miracle.lastName,miracle.age,miracle.favfood);
+  */
+let student = 50;
+
+//student = student + 1;
+student = student - 2;
+student = student / 2;
+console.log(student);
+
 
 
 

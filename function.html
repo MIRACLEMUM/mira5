@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>objects</title>
+</head>
+<body>
+    <script>
+        const animals ={
+            name: 'goat',
+            gender: 'female',
+            price: 2500
+            
+
+
+        }
+
+        console.log(animals)
+        console.log(animals.price)
+        console.log(animals.name)
+        
+        animals.name = 'cow'
+        console.log(animals);
+
+        animals.price = 4000
+        console.log(animals)
+
+        animals.newProperty = false;
+        console.log(animals);
+
+        delete animals.gender;
+        console.log(animals)
+        
+
+    </script>
+</body>
+</html>

@@ -1,2 +1,39 @@
-<button>hello</button>
-<p>come and eat</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle Body Styles</title>
+</head>
+<body>
+    <h1>hello world</h1>
+    
+    <button id="darkMode">Change Body Styles</button>
+
+    <script>
+        
+        let button = document.getElementById("darkMode");
+
+        // Variable to track the current state (if the style has been changed or not)
+        let isStyleChanged = false;
+
+        // Add an event listener to the button
+        button.addEventListener("click", function() {
+            if (isStyleChanged) {
+                // Revert to the original style
+                document.body.style.backgroundColor = "";
+                document.body.style.color = "";
+                button.textContent = "come home"; // Reset button text
+            } else {
+                // Change to new style
+                document.body.style.backgroundColor = "red";
+                document.body.style.color = "black";
+                button.textContent = "Revert to Original Styles"; // Change button text
+            }
+
+            // Toggle the state
+            isStyleChanged = !isStyleChanged;
+        });
+    </script>
+</body>
+</html>
